@@ -3,12 +3,16 @@ import './parallax.css';
 import Clips from './utils/Clips';
 import SocialLink from './utils/SocialLink';
 import pattern from './pattirn-01.svg';
+import p1 from '../assets/p1.png'
+import p2 from '../assets/p2.png'
+import p3 from '../assets/p3.png'
+
 
 const Hero = ({ heroapi: { title, subtitle, btntext, img, sociallinks, videos } }) => {
   const images = [
-    './src/assets/p1.png',
-    './src/assets/p2.png',
-    './src/assets/p3.png'
+    p1,
+    p2,
+    p3,
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
